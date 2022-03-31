@@ -1,0 +1,71 @@
+/*font - курсив жирность размер_шрифта / межстрочный_интервал семейство */
+
+
+/* font:
+	1. font-size 13px определяет размер шрифта
+	2. line-height 20px устанавливает величину пространства между строками
+	3. font-family Times new roman уст-ет шрифт текста*/
+
+ p{
+	font: 13px/20px times new roman;
+} 
+
+/* font-weight: bold жирность
+	font size 40px размер шрифта
+	font-family arial шрифт текста
+	width anf color нельзя записать в форму font */
+
+ p{
+	font: bold 30px arial;
+	width: 300px;
+	color: red;
+} 
+
+/* font-style: italic стилизированние текста 
+	font-weight: bold жирность
+	font-size 40px размер шрифта
+	line-height 60px устанавливает величину пространства между строками
+	font-family arial уст-ет шрифт текста */
+
+ p{
+	font: italic bold 40px/60px arial;
+} 
+
+/*text-indent 50px устанавливает красную строку текста */
+/* text-alagin justify  устанавливает выравнивание (justify выравнивает текст по левому и правому краю */
+/* width: устанавливает ширину элемента */
+
+p{
+	text-indent: 50px;
+	text-align: justify;
+	width: 400px;
+} 
+
+/* text-decoration позволяет задавать некоторые эффекты для текста
+	1. underline добавляет подчеркивание тексту
+	2. overline добавляет линию над текстом
+	3. line-through добавляет линию, перечеркивающую текст
+	/* 4. none отменяет все эффекты */
+
+
+ p{
+	text-decoration: overline;
+	color: red;
+} 
+
+p{
+	text-decoration: line-through;
+	color: green;
+} 
+
+ p{
+	text-decoration: underline;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+} 
+
+p{
+	text-decoration: none;
+}
+a {
+	color: red;
+}
